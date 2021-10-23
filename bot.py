@@ -8,6 +8,7 @@ import spacy
 import nltk
 import string
 from private import token
+nltk.download('stopwords')
 
 #Classes
 class Serveur:
