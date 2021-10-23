@@ -18,9 +18,9 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-- [KaamelottBot Autoresponder](#KaamelottBot-Autoresponder)
+- [KaamelottBot Autoresponder](#kaamelottbot-autoresponder)
   - [Table of Contents](#table-of-contents)
-- [Introduction](#Introduction)
+  - [Introduction](#introduction)
   - [Presentation](#presentation)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
@@ -49,15 +49,40 @@ Resynchronize the package index files
 ```sh
 sudo apt-get update
 ```
+install python 3.8
 
+```sh
+sudo apt install python3.8
+```
+install the python libraries
+
+```sh
+pip install discord
+pip install spacy
+pip install nltk
+```
+
+download the spacy french language pack
+```sh
+python3 -m spacy download fr_core_news_lg
+```
 
 ### Installation
 
 1. Clone the repo
 ```sh
 git clone https://github.com/louispr81/KaamelottAutoResponder
-cd plt
+cd KaamelottAutoResponder
 ```
+In the folder KaamelottAutoResponder create a file "private.py". Write your bot token in this file like this (how to get a discord bot token : https://www.writebots.com/discord-bot-token/) :
+```python
+token="[Insert yout bot token here]"
+```
+
+Launch bot.py
+
+Congratulations the bot is now active !
+Invite him to your discord server (https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links)
 
 <!-- RELEASE HISTORY--> 
 ## Release History 
