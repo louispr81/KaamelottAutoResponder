@@ -80,7 +80,9 @@ token="[Insert yout bot token here]"
 ```
 
 Launch bot.py
-
+```sh
+python3 bot.py
+```
 Congratulations the bot is now active !
 Invite him to your discord server (https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links)
 
